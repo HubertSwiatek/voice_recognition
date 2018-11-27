@@ -31,6 +31,7 @@ int main(int argc, char **argv) {
 		else if(temp == "move left" || temp == "turn left") commander("moveLeft");
 		else if(temp == "move right" || temp == "turn right") commander("moveRight"); 
 		else if(temp == "go to the initial position" || temp == "go to initial position") commander("moveInit");
+		else if(temp == "move place" || temp == "move to place" || temp == "move to the place") commander("movePlace");
 		command.data="";
 		temp="";
 		ros::spinOnce();
